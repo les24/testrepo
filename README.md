@@ -44,7 +44,7 @@ Extent Reports for each test run can be found in - `\BuySharesTestFramework\repo
 
 A jdk might not be configured for the project, to fix this Open Project in IDE from File menu -> Project Structure and assign the JDK in the SDK tab as per the screenshot below and save project. 
 
-![image](https://user-images.githubusercontent.com/24316826/149125478-09700604-f176-476a-ad72-a420c261dc7e.png)
+![image](https://user-images.githubusercontent.com/24316826/149130160-ab5ed833-5852-4b52-8cab-78e127ed76c4.png)
 
 Built With:
 
