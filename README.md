@@ -24,7 +24,9 @@ For building and running the application you need:
 * M2_HOME: `%PATH%\<mavenversion>`
 * Add to PATH: `%M2_HOME%\bin` and `%JAVA_HOME%\bin` 
 
-### Running the tests locally
+## Running the tests
+
+#### Running the tests locally
 
 Open the project in IDE right-click the `testng.xml`and select "Run" or "Debug" to start the tests.
 
@@ -37,12 +39,13 @@ To run the test:
 - `cd` to your project root folder in command line.
 - run `mvn clean compile test` 
 
-### Reports
+### Reporting
+The default reporting provided by the framework is Extent Report. Screenshots are taken after a failure (if any), which will display in the test section of the report.
 Extent Reports for each test run can be found in - `\BuySharesTestFramework\reports`
 
 Built With:
 
-- Selenium - Browser automation framework
-- Maven - Dependency management
-- TestNG - Testing framework
-- Extent Reports - Reporting framework
+- [Selenium](https://github.com/SeleniumHQ/selenium) - Browser automation framework
+- [Maven](https://maven.apache.org/) - Dependency management
+- [TestNG](https://github.com/cbeust/testng) - Testing framework
+- [Extent](https://github.com/extent-framework/extentreports-java) Reports - Reporting framework
