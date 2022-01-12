@@ -40,7 +40,7 @@ To run the test:
 - run `mvn clean compile test` 
 
 ### Reporting
-The default reporting provided by the framework is Extent Report. Screenshots are taken after a failure (if any), which will display in the test section of the report.
+The default reporting provided by the framework is Extent Report. Screenshots are taken after a failure (if any) and stored under `\BuySharesTestFramework\screenshots`, they will also display in the failed test section of the report.
 Extent Reports for each test run can be found in - `\BuySharesTestFramework\reports`
 
 Built With:
