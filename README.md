@@ -2,7 +2,6 @@
 # ShareBuyTestFramework
 A maven selenium test framework written in java to test features of buyshares.co.uk website with Extent Reports for test results.
 
-
 ## Prerequisites
 For building and running the application you need:
 * [JDK](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
@@ -26,15 +25,29 @@ To run the test:
 - `cd` to your project root folder in command line.
 - run `mvn clean compile test` 
 
-### Set up
+### Reports
+Extent Reports for each test run can be found in - `\BuySharesTestFramework\reports`
 
-2. Set Path for Java and Maven in environment variables
+### Set up
+1. Clone the repo into your local machine.
+
+2. Download:
+- [IntelliJ](https://www.jetbrains.com/idea/download/#section=windows) (IDE to run tests and debug)
+- [ChromeDriver](https://https://chromedriver.chromium.org/downloads) corresponding to your Chrome browser version and place in `%PATH%\BuySharesTestFramework\driver`
+
+3. Set Path for Java and Maven in environment variables
 * JAVA_HOME: `%PATH%\Java\<jdkversion>`
 * M2_HOME: `%PATH%\<mavenversion>`
-* Add to PATH: `%M2_HOME%\bin` and `%JAVA_HOME%\bin`
+* Add to PATH: `%M2_HOME%\bin` and `%JAVA_HOME%\bin` 
 
-### Reports
-Extent Reports for each test run can be found in - `%PATH%\BuySharesTestFramework\reports`
+### Edit the test script
+To edit the script in GUI mode run in powershell - `EditTestInJmeter.ps1`
+### Configure test parameters
+Test parameters can be configured using file - `test.properties`
+### Data creation
+Before starting load test we need to set up initial data. Run `DataCreation.ps1` to create some accounts to begin with.
+### Run load tests
+To start a load test run in powershell - `StartLoadtest.ps1`
 
 Built With:
 
@@ -42,4 +55,3 @@ Built With:
 - Maven - Dependency management
 - TestNG - Testing framework
 - Extent Reports - Reporting framework
-
