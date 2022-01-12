@@ -37,12 +37,12 @@ To run the test:
 - run `mvn clean compile test` 
 
 ### Reporting
-The default reporting provided by the framework is Extent Report. Screenshots are taken after a failure (if any) and stored under `\BuySharesTestFramework\screenshots`, they will also display in the failed test section of the report.
+The default reporting provided by the framework is Extent Report. Screenshots are taken after a failure (if any) and stored under `\BuySharesTestFramework\screenshots`, they will also display in the failed test section of the report.\
 Extent Reports for each test run can be found in - `\BuySharesTestFramework\reports`
 
 ## It's not working!!!
 
-A jdk might not be configured for the project, to fix this Open Project in IDE from File menu -> Project Structure and assign the JDK in the SDK tab as per the screenshot below and save project. 
+A jdk might not be configured for the project, to fix this Open Project in IDE from File menu -> Project Structure and assign the JDK in the SDK tab as per the screenshot below and save project.
 
 ![image](https://user-images.githubusercontent.com/24316826/149130160-ab5ed833-5852-4b52-8cab-78e127ed76c4.png)
 
