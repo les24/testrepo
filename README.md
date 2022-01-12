@@ -32,3 +32,14 @@ To run the test:
 * JAVA_HOME: `%PATH%\Java\<jdkversion>`
 * M2_HOME: `%PATH%\<mavenversion>`
 * Add to PATH: `%M2_HOME%\bin` and `%JAVA_HOME%\bin`
+
+### Reports
+Extent Reports for each test run can be found in - `%PATH%\BuySharesTestFramework\reports`
+
+Built With:
+
+- Selenium - Browser automation framework
+- Maven - Dependency management
+- TestNG - Testing framework
+- Extent Reports - Reporting framework
+
