@@ -16,10 +16,7 @@ For building and running the application you need:
 - [IntelliJ](https://www.jetbrains.com/idea/download/#section=windows) (IDE to run tests and debug)
 - [ChromeDriver](https://https://chromedriver.chromium.org/downloads) corresponding to your Chrome browser version and place in `%PATH%\BuySharesTestFramework\driver`
 
-3. Open Project in IDE from File menu open Project Structure and assign the JDK in the SDK tab as per the screenshot below and save project 
-![image](https://user-images.githubusercontent.com/24316826/149125478-09700604-f176-476a-ad72-a420c261dc7e.png)
-
-4. Set Path for Java and Maven in environment variables
+3. Set Path for Java and Maven in environment variables
 * JAVA_HOME: `%PATH%\Java\<jdkversion>`
 * M2_HOME: `%PATH%\<mavenversion>`
 * Add to PATH: `%M2_HOME%\bin` and `%JAVA_HOME%\bin` 
