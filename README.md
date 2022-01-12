@@ -10,7 +10,10 @@ For building and running the application you need:
 * [IDE - IntelliJ](https://www.jetbrains.com/idea/download/#section=windows)
 * [ChromeDriver](https://https://chromedriver.chromium.org/downloads)
 
-## Running the tests locally
+## Getting Started 
+Copy the repo into your local machine.
+
+### Running the tests locally
 
 Open the project in IDE right-click the `testng.xml`and select "Run" or "Debug" to start the tests.
 
@@ -23,3 +26,9 @@ To run the test:
 - `cd` to your project root folder in command line.
 - run `mvn clean compile test` 
 
+### Set up
+
+2. Set Path for Java and Maven in environment variables
+* JAVA_HOME: `%PATH%\Java\<jdkversion>`
+* M2_HOME: `%PATH%\<mavenversion>`
+* Add to PATH: `%M2_HOME%\bin` and `%JAVA_HOME%\bin`
