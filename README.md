@@ -35,19 +35,13 @@ Extent Reports for each test run can be found in - `\BuySharesTestFramework\repo
 - [IntelliJ](https://www.jetbrains.com/idea/download/#section=windows) (IDE to run tests and debug)
 - [ChromeDriver](https://https://chromedriver.chromium.org/downloads) corresponding to your Chrome browser version and place in `%PATH%\BuySharesTestFramework\driver`
 
-3. Set Path for Java and Maven in environment variables
+3. Open Project in IDE from File menu open Project Structure and assign the JDK in the SDK tab as per the screenshot below
+![image](https://user-images.githubusercontent.com/24316826/149125478-09700604-f176-476a-ad72-a420c261dc7e.png)
+
+4. Set Path for Java and Maven in environment variables
 * JAVA_HOME: `%PATH%\Java\<jdkversion>`
 * M2_HOME: `%PATH%\<mavenversion>`
 * Add to PATH: `%M2_HOME%\bin` and `%JAVA_HOME%\bin` 
-
-### Edit the test script
-To edit the script in GUI mode run in powershell - `EditTestInJmeter.ps1`
-### Configure test parameters
-Test parameters can be configured using file - `test.properties`
-### Data creation
-Before starting load test we need to set up initial data. Run `DataCreation.ps1` to create some accounts to begin with.
-### Run load tests
-To start a load test run in powershell - `StartLoadtest.ps1`
 
 Built With:
 
